@@ -1,0 +1,83 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #2e3a59;
+  color: #fff;
+  padding: 1rem;
+}
+
+.sidebar h2 {
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 1rem 0;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.sidebar li:hover {
+  background-color: #3f4c6b;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f4f6f9;
+  overflow-y: auto;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #eaeaea;
+}
+
+.add-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #2e3a59;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-section {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.form-section input, .form-section select {
+  padding: 0.5rem;
+  min-width: 150px;
+}
